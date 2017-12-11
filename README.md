@@ -18,3 +18,7 @@
 ###### 在需要创建一系列产品族时使用.
 ###### 相比工厂方法,其可以创建一组/一系列相关产品,而非只是单一一个(即包含多个工厂方法,分别创建相关的不同类型产品).
     FCL:DbProviderFactory(SqlClientFactory)->DbCommand,DbCommandBuilder,DbConnection,DbConnectionStringBuilder,DbDataSourceEnumerator....
+
+#### 4.生成器:将复杂对象的构建过程(导航器)与表示分离,使得同样的构建过程可以创建不同的表示.
+###### 构建过程相同,但是不同的生成器生成的表示不同的时候使用.
+        FCL:StringBuilder,即是导航器也是生成器
